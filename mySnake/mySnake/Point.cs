@@ -12,6 +12,18 @@ namespace mySnake
         public int y;
         public char sim;
 
+        public Point(int _x, int _y, char _sim)
+        {
+            x = _x;
+            y = _y;
+            sim = _sim;
+        }
+        public Point()
+        {
+            
+
+        }
+
         public void Draw()
         {
 
